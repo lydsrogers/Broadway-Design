@@ -25,7 +25,7 @@ body {
 .container {
   background-color: white;
   display: block;
-  width: auto;
+  margin: 10px 50px 10px 50px
 }
 
 h3 {
