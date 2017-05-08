@@ -7,10 +7,16 @@ h1 {
 }
 
 .banner {
-  width:auto;
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
   text-align: center;
+  max-width: 100%;
+  height: auto;
 }
+
+a:visited {
+  color: white;
+}
+
 
 h2 {
   text-align: center;
@@ -19,13 +25,7 @@ h2 {
 }
 
 body {
-  background-color:black;
-}
-
-.container {
-  background-color: white;
-  display: block;
-  margin: 10px 50px 10px 50px
+  background-color:white;
 }
 
 h3 {
